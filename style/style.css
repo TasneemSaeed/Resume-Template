@@ -1,0 +1,357 @@
+
+/* main */
+
+body {
+	background-color: #FFF;
+}
+
+p {
+	font-family: "cambria";
+}
+
+hr {
+	margin: 0;
+	border-top: 2px solid #999;
+}
+/*
+
+.container {
+	width: 1170px;
+	margin: auto;
+
+}
+*/
+
+/* main */
+
+/* header */
+
+.header .slider {
+	padding-top: 255px;
+	height: 500px;
+	color: #fff;
+	background-image: url('../media/S.jpg');
+	/* background-size:cover; if you choose right sized photo CSS3 */
+	text-align: center;
+
+}
+
+.header .slider h2 {
+	margin: 0 auto;
+	width: 500px;
+	font-size: 40px;
+	border-top: 3px solid white;
+	border-bottom: 3px solid white;
+	padding: 3px 0;
+
+	/* height: 500px; */
+
+}
+
+.header .slider button {
+	background: none;
+	width: 140px;
+	margin-top: 10px;
+}
+
+/*
+.SliderSize {
+	height: 500px;
+	width: 1140px;
+}
+*/
+
+.nav {
+	background-color: #252f31;
+	color: #fff;
+	overflow: hidden;
+	text-transform: uppercase;	
+}
+
+.nav h2{
+	margin-top: 13px;
+	float: left;}
+
+
+.nav h2 span{color: #2ecc71;}
+
+.nav ul {
+	list-style: none;
+	padding-left: 0 ;
+	overflow: hidden;
+	float: right;
+	margin-top: 13px;
+}
+
+.nav ul li {
+	float: left ;
+	padding: 10px ;
+}
+
+.nav ul li a {
+	color: #fff; 
+}
+.nav ul li a:hover ,
+.nav ul li.active a {
+	color: #2ecc71;
+}
+/* header */
+
+/* features */
+.features{
+	/* overflow: hidden; */
+	color: #333;
+	padding-top: 55px;
+	padding-bottom: 60px; 
+
+}
+
+.features .col-md-4 {
+	height: 150px;
+
+}
+
+.features .col-md-4 h3 {
+	color: #444;
+
+
+}
+.features .col-md-4 p {
+	line-height: 25px;
+	font-size: 17px;
+	color: #999;
+}
+/* features */
+
+/* about me */
+
+.about {
+	background-color: #f2f2f2;
+	padding: 30px 0px;
+}
+
+.about p:last-of-type {
+	color: #999;
+	font-size: 17px;
+	margin-bottom: 35px;
+}
+
+.hobbies > div {
+
+	float: left;
+	width: 50%;
+	min-height: 100px;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 1.8;
+	color: #0b7526;
+}
+
+.hobbies > div p {
+	font-weight: lighter;
+	line-height: 1.5;
+}
+
+/* about me */
+
+/* skills & education */
+
+.skills {
+	background-color: #DDD;
+	padding-bottom: 30px;
+	padding-top: 20px;
+}
+
+.skills p,
+.edu p {
+	line-height: 1.6;
+	margin-bottom: 25px;
+	color: #777;
+	font-size: 17px;
+}
+
+.skills button {
+	background: none;
+	border: 1px solid #2dcc70;
+	font-weight: bold;
+	padding: 10px 20px;
+	font-size: 17px;
+	color: #2dcc70;
+	font-family:  "berlin sans fb";
+
+}
+
+.skills .prog h4 {
+	margin-top: 22px;
+}
+
+.skills .prog div {
+	background-color: #f2f2f2;
+	height: 25px;
+}
+
+.skills .prog span {
+	background-color: #2dcc70; 
+	height: 25px; 
+	display: block;
+	text-align: right;
+	color: white;
+	padding-top: 4px;
+	font-weight: bold;
+}
+
+.edu {
+	background-color: #DDD;
+	padding-bottom: 40px;
+	line-height: 3;
+}
+
+.edu .exp h4{text-transform: uppercase;}
+
+.edu .exp strong{
+	display: block;
+}
+
+.edu .exp span {
+	display: block;
+	background-color: #2dcc70;
+	width: 52px;
+	padding: 1px 5px;
+}
+
+.edu hr {
+	margin-top: 15px;
+}
+/* skills & education */
+
+/* Resume */
+
+.Resume {
+	line-height: 1.8;
+	text-align: center;
+	background-color: #777;
+	padding-top: 50px;
+	padding-bottom: 40px;
+}
+
+.Resume q {
+	font-size: 18px;
+	margin-bottom: 30px;
+	color: #aaa;
+	font-style: italic;
+}
+
+.Resume ul {
+	list-style: none;
+	padding-left: 0;
+	text-align: center;
+}
+
+.Resume li {
+	width: 16px;
+	height: 16px;
+	border: 2px solid #2dcc70;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.Resume li.active ,
+.Resume li:hover {background-color: #2dcc70;}
+/* Resume */
+
+/* PF */
+.pf {
+	background-color: #DDD;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.pf h2 {
+	margin-bottom: 30px;
+	text-transform: uppercase;
+	color: #444;
+}
+ .pf p {
+ 	font-size: 18px;
+ 	font-weight: bold;
+ 	margin-bottom: 40px;
+ 	color: #888;
+ }
+
+ .pf .col-md-4 {
+ 	margin-bottom: 40px;
+
+ }
+
+ .pf .col-md-4 img {
+ 	padding: 3px;
+ 	background-color: #fff;
+ 	border: 1px solid #ccc;
+ 	margin-bottom: 20px;
+ }
+
+/* PF */
+
+/* contact */
+
+.contact {
+	background-color: #222;
+	color: #BBB;
+	padding: 30px 0;
+}
+
+.contact h2 {
+	margin: 40px 0 ;
+	color: #d1d6da;
+}
+
+.contact .info {
+	font-size: 18px;
+	line-height: 1.8;
+	color: #6a6e71;
+}
+
+.contact .info strong {
+	color: #d1d6da;
+}
+
+.contact .form {
+	margin-top: 100px;
+}
+
+.contact .form label {
+	display: block;
+	margin-bottom: 10px;
+	color: #d1d6da;
+	font-size: 17px;
+}
+
+.contact .form input[type="text"],
+.contact .form textarea {
+	background-color: #4b5557;
+	color: white;
+	padding: 10px;
+	border: 0;
+	width: 100%;
+	margin-bottom: 35px;
+}
+
+.contact .form input[type="submit"] {
+	background-color : #191e22;
+	color: white;
+	border: none;
+	margin-bottom: 30px;
+	padding: 15px 50px;
+	font-weight: bold;
+
+}
+/* contact */
+
+/* Footer */
+
+.foot{
+	color: #000;
+	text-align: center;
+}
+
+/* Footer */
